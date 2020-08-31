@@ -1,0 +1,30 @@
+{
+	"agcgw":{
+		"backurl":"connect-dre.dbankcloud.cn",
+		"url":"connect-dre.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"5190090000026360265",
+		"product_id":"736430079244614803",
+		"client_id":"438240932429562880",
+		"client_secret":"719FC101C8125885B83936F9EBA729C8DAD646B77D6DC355679889812EEF680C",
+		"app_id":"102798295",
+		"package_name":"com.reactnativeauthservicedemo",
+		"api_key":"CgB6e3x9sEqhHEZw5+hq21fJfNRqadohaiIJGEfZ7ulo57KAl9IjrIda1dsyXd7eOU2geMan03skX/u+sGuHu6Mq"
+	},
+	"service":{
+		"analytics":{
+			"collector_url":"datacollector-dre.dt.hicloud.com,datacollector-dre.dt.dbankcloud.cn",
+			"resource_id":"p1",
+			"channel_id":""
+		},
+		"cloudstorage":{
+			"storage_url":"https://ops-dre.agcstorage.link"
+		},
+		"ml":{
+			"mlservice_url":"ml-api-dre.ai.dbankcloud.com,ml-api-dre.ai.dbankcloud.cn"
+		}
+	},
+	"region":"DE",
+	"configuration_version":"1.0"
+}
