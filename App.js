@@ -15,17 +15,17 @@ export class App extends Component {
       isNativeAdVisible: false,
     };
   }
-  _showInterstitialAd = () => {
+  _showInterstitialAd() {
     HMSInterstitial.isLoaded().then((result) => {
       if (result) {
         HMSInterstitial.show(); // if result is true show the ad
       }
     });
-  };
-  _showSplashAd = () => {
+  }
+  _showSplashAd() {
     HMSSplash.setAdId('testd7c5cewoj6');
     HMSSplash.show(); // if result is true show the ad
-  };
+  }
   _showNativeAd = () => {
     this.setState({
       isNativeAdVisible: true,
